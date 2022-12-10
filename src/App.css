@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.backgroundImage {
+  background-image: url('https://i.ibb.co/0BTfS9c/v1016-a-02.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.projectsBackgroundImage {
+  background-image: url('https://i.ibb.co/DpSBvZ1/gray-abstract-wireframe-technology-background.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* .contactForm {
+  background-image: url('https://i.ibb.co/hdFWWwL/v748-toon-103.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
