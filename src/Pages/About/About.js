@@ -5,16 +5,16 @@ const About = () => {
     <div className="my-20" id="about">
       <div className="text-center ">
         <h1 className="text-4xl font-bold">ABOUT ME</h1>
-        <div className="divider w-1/3 mx-auto">JK</div>
-        <p className="w-1/2 mx-auto text-lg mb-20">
+        <div className="divider w-1/3 mx-auto"><img  src="https://i.ibb.co/bJKzvQL/devider-removebg-preview.png" alt="divider"/></div>
+        <p className="w-1/2 mx-auto text-lg mb-20 text-slate-600">
           Here you will find more information about me, what I do, and my
           current skills mostly in terms of programming and technology
         </p>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 m-20">
         <div>
-          <h1 className="text-2xl font-bold">Get to Know me!</h1>
-          <p className="my-7">
+          <h1 className="text-2xl font-bold">GET TO KNOW ME :</h1>
+          <p className="my-7 text-lg text-justify text-slate-600">
             I'm a Junior Web Developer building different types of core javaScript projects, React js web applications and full stack web applications.
             Check out some of my work in the Projects section.
             <br />
@@ -24,35 +24,37 @@ const About = () => {
             grow. If you have a good opportunity that matches my skills and
             experience then don't hesitate to contact me.
           </p>
-          <button className="btn btn-secondary shadow-lg"><a href="#contact">CONTACT</a> </button>
+          <button className="btn btn-secondary shadow-lg w-full lg:w-1/3"><a href="#contact">CONTACT</a> </button>
         </div>
         <div>
-            <h1 className="text-2xl font-bold mb-7">My Skills</h1>
+            <h1 className="text-2xl font-bold mb-7">MY SKILLS :</h1>
             <div className="grid grid-cols-3 lg:grid-cols-4 gap-5">
-                <h1 className="bg-base-200 w-fit p-3 border-none rounded text-primary font-bold">HTML</h1>
-                <h1 className="bg-base-200 w-fit p-3 border-none rounded text-primary font-bold">CSS</h1>
-                <h1 className="bg-base-200 w-fit p-3 border-none rounded text-primary font-bold">JavaScript</h1>
-                <h1 className="bg-base-200 w-fit p-3 border-none rounded text-primary font-bold">Bootstrap</h1>
-                <h1 className="bg-base-200 w-fit p-3 border-none rounded text-primary font-bold">Tailwind Css</h1>
-                <h1 className="bg-base-200 w-fit p-3 border-none rounded text-primary font-bold">Daisy UI</h1>
-                <h1 className="bg-base-200 w-fit p-3 border-none rounded text-primary font-bold">ES6</h1>
-                <h1 className="bg-base-200 w-fit p-3 border-none rounded text-primary font-bold">npm</h1>
-                <h1 className="bg-base-200 w-fit p-3 border-none rounded text-primary font-bold">Rest API</h1>
-                <h1 className="bg-base-200 w-fit p-3 border-none rounded text-primary font-bold">React js</h1>
-                <h1 className="bg-base-200 w-fit p-3 border-none rounded text-primary font-bold">React Hooq</h1>
-                <h1 className="bg-base-200 w-fit p-3 border-none rounded text-primary font-bold">React Query</h1>
-                <h1 className="bg-base-200 w-fit p-3 border-none rounded text-primary font-bold">React Router</h1>
-                <h1 className="bg-base-200 w-fit p-3 border-none rounded text-primary font-bold">Node js</h1>
-                <h1 className="bg-base-200 w-fit p-3 border-none rounded text-primary font-bold">Express js</h1>
-                <h1 className="bg-base-200 w-fit p-3 border-none rounded text-primary font-bold">Mongodb</h1>
-                <h1 className="bg-base-200 w-fit p-3 border-none rounded text-primary font-bold">Git</h1>
-                <h1 className="bg-base-200 w-fit p-3 border-none rounded text-primary font-bold">GitHub</h1>
-                <h1 className="bg-base-200 w-fit p-3 border-none rounded text-primary font-bold">VS Code</h1>
-                <h1 className="bg-base-200 w-fit p-3 border-none rounded text-primary font-bold">Firebase</h1>
-                <h1 className="bg-base-200 w-fit p-3 border-none rounded text-primary font-bold">Netlify</h1>
-                <h1 className="bg-base-200 w-fit p-3 border-none rounded text-primary font-bold">Vercel</h1>
-                <h1 className="bg-base-200 w-fit p-3 border-none rounded text-primary font-bold">Figma</h1>
-                <h1 className="bg-base-200 w-fit p-3 border-none rounded text-primary font-bold">Photoshop</h1>
+                <div className="text-center p-3 border rounded text-accent">HTML</div>
+                <div className="text-center p-3 border rounded text-accent">CSS</div>
+                <div className="text-center p-3 border rounded text-accent">JavaScript</div>
+                <div className="text-center p-3 border rounded text-accent">Bootstrap</div>
+                <div className="text-center p-3 border rounded text-accent">Tailwind Css</div>
+                <div className="text-center p-3 border rounded text-accent">Daisy UI</div>
+                <div className="text-center p-3 border rounded text-accent">ES6</div>
+                <div className="text-center p-3 border rounded text-accent">npm</div>
+                <div className="text-center p-3 border rounded text-accent">ES6</div>
+                <div className="text-center p-3 border rounded text-accent">Rest API</div>
+                <div className="text-center p-3 border rounded text-accent">React js</div>
+                <div className="text-center p-3 border rounded text-accent">React Hooq</div>
+                <div className="text-center p-3 border rounded text-accent">React Query</div>
+                <div className="text-center p-3 border rounded text-accent">React Router</div>
+                <div className="text-center p-3 border rounded text-accent">React Query</div>
+                <div className="text-center p-3 border rounded text-accent">Node js</div>
+                <div className="text-center p-3 border rounded text-accent">Express js</div>
+                <div className="text-center p-3 border rounded text-accent">Mongodb</div>
+                <div className="text-center p-3 border rounded text-accent">Git</div>
+                <div className="text-center p-3 border rounded text-accent">GitHub</div>
+                <div className="text-center p-3 border rounded text-accent">VS Code</div>
+                <div className="text-center p-3 border rounded text-accent">Firebase</div>
+                <div className="text-center p-3 border rounded text-accent">Netlify</div>
+                <div className="text-center p-3 border rounded text-accent">Vercel</div>
+                <div className="text-center p-3 border rounded text-accent">Figma</div>
+                <div className="text-center p-3 border rounded text-accent">Photoshop</div>
             </div>
         </div>
       </div>

@@ -3,16 +3,18 @@ import { Link } from "react-router-dom";
 
 const Navigation = () => {
     const menuItems = <>
-            <li><Link to="/" >HOME</Link></li>
-            <li><a href="#about">ABOUT</a></li>
-            <li><a href="#project">PROJECTS</a></li>
-            <li><a href="#contact">CONTACT</a></li>
+            <li className="menuHover"><Link to="/" >HOME</Link></li>
+            <li className="menuHover"><a href="#about">ABOUT</a></li>
+            <li className="menuHover"><a href="#project">PROJECTS</a></li>
+            <li className="menuHover"><a href="#contact">CONTACT</a></li>
+            <li className="menuHover"><Link to="/blog" >BLOG</Link></li>
           </>
   return (
-    <div className="navbar bg-base-100 shadow z-10 ">
-      <div className="navbar">
+    <div className="navbar bg-base-100 shadow z-10 sticky top-0">
+      <div className="navbar flex justify-between">
+      <img className="w-1/3 lg:w-32 hidden lg:block" src="https://i.ibb.co/CB8syp7/jharna-logo.png" alt="jharna-portfolio" />
         <div className="dropdown">
-          <label tabIndex={0} className="btn btn-ghost lg:hidden">
+          <label tabIndex={0} className="btn  lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
@@ -35,30 +37,14 @@ const Navigation = () => {
             {menuItems}
           </ul>
         </div>
-        <img className="w-32" src="https://i.ibb.co/CB8syp7/jharna-logo.png" alt="jharna-portfolio" />
+        <img className="w-1/3 lg:w-32 lg:hidden" src="https://i.ibb.co/CB8syp7/jharna-logo.png" alt="jharna-portfolio" />
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal p-0">
         {menuItems}
         </ul>
       </div>
-      <label htmlFor="dashboard-drawer"  tabIndex={2} className="btn btn-ghost lg:hidden">
-            <svg
-            htmlFor="dashboard-drawer"
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M4 6h16M4 12h8m-8 6h16"
-              />
-            </svg>
-          </label>
+      
     </div>
   );
 };

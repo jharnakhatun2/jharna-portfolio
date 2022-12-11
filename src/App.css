@@ -38,22 +38,28 @@
 }
 
 .backgroundImage {
-  background-image: url('https://i.ibb.co/0BTfS9c/v1016-a-02.jpg');
+  background-image: url('https://i.ibb.co/6v09WSC/v1016-a-02.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 .projectsBackgroundImage {
-  background-image: url('https://i.ibb.co/DpSBvZ1/gray-abstract-wireframe-technology-background.jpg');
+  background-image: url('https://i.ibb.co/jhctkyC/gray-abstract-wireframe-technology-background.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
-/* .contactForm {
-  background-image: url('https://i.ibb.co/hdFWWwL/v748-toon-103.jpg');
+.project {
+  background-image: url('https://i.ibb.co/JnQjRZy/v748-toon-103.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-} */
+  background-attachment: fixed;
+}
+.menuHover:hover{
+  background-color: #222f3e;
+  color: #30e1fb;
+  border-radius: 5px;
+}
