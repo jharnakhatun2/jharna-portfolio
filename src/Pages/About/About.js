@@ -6,12 +6,12 @@ const About = () => {
       <div className="text-center ">
         <h1 className="text-4xl font-bold">ABOUT ME</h1>
         <div className="divider w-1/3 mx-auto"><img  src="https://i.ibb.co/bJKzvQL/devider-removebg-preview.png" alt="divider"/></div>
-        <p className="w-1/2 mx-auto text-lg mb-20 text-slate-600">
+        <p className="w-full lg:w-1/2 px-8 mx-auto text-lg mb-20 text-slate-600 ">
           Here you will find more information about me, what I do, and my
           current skills mostly in terms of programming and technology
         </p>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 m-20">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 m-8 lg:m-20">
         <div>
           <h1 className="text-2xl font-bold">GET TO KNOW ME :</h1>
           <p className="my-7 text-lg text-justify text-slate-600">

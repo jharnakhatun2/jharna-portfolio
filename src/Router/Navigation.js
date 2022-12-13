@@ -1,13 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const Navigation = () => {
     const menuItems = <>
-            <li className="menuHover"><Link to="/" >HOME</Link></li>
-            <li className="menuHover"><a href="#about">ABOUT</a></li>
-            <li className="menuHover"><a href="#project">PROJECTS</a></li>
-            <li className="menuHover"><a href="#contact">CONTACT</a></li>
-            <li className="menuHover"><Link to="/blog" >BLOG</Link></li>
+            <li className="menuHover"><HashLink smooth={true} state={'sdf'} to="/#hero">HOME</HashLink></li>
+            <li className="menuHover"><HashLink smooth={true} to="/#about">ABOUT</HashLink></li>
+            <li className="menuHover"><HashLink smooth={true} to="/#project">PROJECTS</HashLink></li>
+            <li className="menuHover"><HashLink  smooth={true} to="/#contact">CONTACT</HashLink></li>
+           <li className="menuHover"><Link to="/blog" >BLOG</Link></li>
           </>
   return (
     <div className="navbar bg-base-100 shadow z-10 sticky top-0">

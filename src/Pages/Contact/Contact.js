@@ -23,7 +23,7 @@ const Contact = () => {
       <div className="text-center ">
         <h1 className="text-4xl font-bold">CONTACT</h1>
         <div className="divider w-1/3 mx-auto"><img  src="https://i.ibb.co/bJKzvQL/devider-removebg-preview.png" alt="divider"/></div>
-        <p className="w-1/2 mx-auto text-lg text-accent">
+        <p className="w-full lg:w-1/2 px-8 mx-auto text-lg text-accent">
         Feel free to Contact me by submitting the form below and I will get back to you as soon as possible
         </p>
       </div>
