@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+# PROJECT TITLE :  JHARNA PORTFOLIO
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I’m an enthusiastic and competent  web developer. Also I am passionate about web technology with a positive mindset. I have been learning web development for the last 2 years. I have good knowledge about Bootstrap, taillwind css, react js, node js, express js and mongo db. I am especially more comfortable  in react js for frontend development. Currently I explored some projects like ecommerce, learning management system website and react single page application.I am hungry for learning and to build my career. My future  goal is to make a world class and a more functional website where I will use more frontend and backend technologies. I am looking for a job as a junior web developer position in a reputable company  where I can expand my web developing knowledge and leverage my learnings.
+  
 
-## Available Scripts
+## 🔗 Live Site Link: 
+Preview Live : https://jharna-khatun-portfolio.netlify.app/
 
-In the project directory, you can run:
+## 🔗 Resume Link: 
+Download : https://drive.google.com/file/d/1G4awyCsWOnt3BYBccuP3v-D7m0iTJwYp/view
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features of Jharna Portfolio Website -
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- I made this website React JS and tailwind css.
+- I use some react packages - emailjs, lottie-react, react-icons, react-responsive-carousel, react-router-hash-link.
+- My contact form is full activated.
+- I made custom hook for custom browse title.
+- I made json data for load and display my projects.
+- Also I set all active links for buttons.
+- Jharna Portfolio site is full responsive.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
