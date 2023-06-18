@@ -4,25 +4,18 @@ import useTitle from "../../Hook/useTitle";
 const About = () => {
   useTitle("About");
   return (
-    <div className="my-20" id="about">
+    <div className="my-20">
       <div className="text-center ">
         <h1 className="text-4xl font-bold">ABOUT ME</h1>
-        <div className="divider w-1/3 mx-auto">
-          <img
-            src="https://i.ibb.co/bJKzvQL/devider-removebg-preview.png"
-            alt="divider"
-          />
+        <div className="divider w-2/12 mx-auto">
+          <p className="">JS</p>
         </div>
-        <p className="w-full lg:w-1/2 px-8 mx-auto text-lg mb-20 text-slate-600 ">
-          Here you will find more information about me, what I do, and my
-          current skills mostly in terms of programming and technology
-        </p>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 m-8 lg:m-20">
         <div>
           <h1 className="text-2xl font-bold">GET TO KNOW ME :</h1>
           <p className="my-7 text-lg text-justify text-slate-600">
-            I'm a Junior Web Developer building different types of core
+            I'm a MERN Stack Web Developer building different types of core
             javaScript projects, React js web applications and full stack web
             applications. Check out some of my work in the Projects section.
             <br />

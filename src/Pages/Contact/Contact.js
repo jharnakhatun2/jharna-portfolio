@@ -1,36 +1,18 @@
-import React, { useRef } from "react";
-import emailjs from "@emailjs/browser";
-import Lottie from "lottie-react";
-import lottieMail from "../../data-contact-green.json";
-import useTitle from "../../Hook/useTitle";
+import { LottiePlayer } from 'lottie-react';
+import React from 'react'
+import useTitle from '../../Hook/useTitle';
+import { useRef } from 'react';
 
 const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
-
-    emailjs
-      .sendForm(
-        "service_noybaa5",
-        "template_y6ttext",
-        form.current,
-        "qFjflBrNN9XeBXDra"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-    alert("Email Send!");
   };
 
   useTitle("Contact");
   return (
-    <div className="pt-20 bg-base-200" id="contact">
+    <div className="pt-20 bg-base-200">
       <div className="text-center ">
         <h1 className="text-4xl font-bold">CONTACT</h1>
         <div className="divider w-1/3 mx-auto">
@@ -88,12 +70,12 @@ const Contact = () => {
             </form>
           </div>
         </div>
-        <div>
-          <Lottie className="" animationData={lottieMail} />
-        </div>
+        {/* <div>
+          <LottiePlayer className="" animationData={lottieMail} />
+        </div> */}
       </div>
     </div>
   );
-};
+}
 
-export default Contact;
+export default Contact

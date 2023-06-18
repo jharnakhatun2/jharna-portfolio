@@ -1,20 +1,19 @@
-import React from 'react';
-import useTitle from '../../Hook/useTitle';
-import About from '../About/About';
-import Contact from '../Contact/Contact';
-import Projects from '../Projects/Projects';
-import Hero from './Hero';
+import React from 'react'
+import Hero from './Hero'
+import About from '../About/About'
+import Projects from '../Projects/Projects'
+import Contact from '../Contact/Contact'
+
 
 const Home = () => {
-    useTitle("Home");
-    return (
-        <div>
-            <Hero className="w-full h-screen"></Hero>
-            <About></About>
-            <Projects></Projects>
-            <Contact></Contact>
-        </div>
-    );
-};
+  return (
+    <div>
+        <Hero></Hero>
+        <About></About>
+        <Projects></Projects>
+        <Contact></Contact>
+    </div>
+  )
+}
 
-export default Home;
+export default Home

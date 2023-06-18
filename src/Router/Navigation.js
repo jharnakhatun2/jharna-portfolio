@@ -1,21 +1,17 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { HashLink } from "react-router-hash-link";
+import { NavLink } from "react-router-dom";
 
 const Navigation = () => {
-    const menuItems = <>
-            <li className="menuHover"><HashLink smooth={true} state={'sdf'} to="/#hero">HOME</HashLink></li>
-            <li className="menuHover"><HashLink smooth={true} to="/#about">ABOUT</HashLink></li>
-            <li className="menuHover"><HashLink smooth={true} to="/#project">PROJECTS</HashLink></li>
-            <li className="menuHover"><HashLink  smooth={true} to="/#contact">CONTACT</HashLink></li>
-           <li className="menuHover"><Link to="/blog" >BLOG</Link></li>
-          </>
   return (
-    <div className="navbar bg-base-100 shadow z-10 sticky top-0">
+    <div className="navbar bg-[#223438] shadow z-10 sticky top-0">
       <div className="navbar flex justify-between">
-      <img className="w-1/3 lg:w-32 hidden lg:block" src="https://i.ibb.co/CB8syp7/jharna-logo.png" alt="jharna-portfolio" />
+        <img
+          className="p-0 m-0 max-w-[100%] w-20 hidden lg:block"
+          src="https://i.ibb.co/2n3LWZF/JS-2.png"
+          alt="jharna-portfolio"
+        />
         <div className="dropdown">
-          <label tabIndex={0} className="btn  lg:hidden">
+          <label tabIndex={0} className="btn bg-black  lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
@@ -33,19 +29,54 @@ const Navigation = () => {
           </label>
           <ul
             tabIndex={1}
-            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+            className="bg-[#2b4449]  menu menu-compact dropdown-content mt-3 p-3 shadow  w-52"
           >
-            {menuItems}
+            <nav className="menu-4">
+              <NavLink className="nav-content current" to="/">
+                <span data-hover="Home">Home</span>
+              </NavLink>
+              <NavLink className="nav-content" to="/about">
+                <span data-hover="About">About</span>
+              </NavLink>
+              <NavLink className="nav-content" to="/project">
+                <span data-hover="Projects">Projects</span>
+              </NavLink>
+              <NavLink className="nav-content" to="/blog">
+                <span data-hover="Blogs">Blogs</span>
+              </NavLink>
+              <NavLink className="nav-content" to="/contact">
+                <span data-hover="Contact">Contact</span>
+              </NavLink>
+            </nav>
           </ul>
         </div>
-        <img className="w-1/3 lg:w-32 lg:hidden" src="https://i.ibb.co/CB8syp7/jharna-logo.png" alt="jharna-portfolio" />
+        <img
+          className="max-w-[100%] w-16 lg:hidden"
+          src="https://i.ibb.co/2n3LWZF/JS-2.png"
+          alt="jharna-portfolio"
+        />
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal p-0">
-        {menuItems}
+          <nav className="menu-4">
+            <NavLink className="nav-content current" to="/">
+              <span data-hover="Home">Home</span>
+            </NavLink>
+            <NavLink className="nav-content" to="/about">
+              <span data-hover="About">About</span>
+            </NavLink>
+            <NavLink className="nav-content" to="/project">
+              <span data-hover="Projects">Projects</span>
+            </NavLink>
+            <NavLink className="nav-content" to="/blog">
+              <span data-hover="Blogs">Blogs</span>
+            </NavLink>
+            <NavLink className="nav-content" to="/contact">
+              <span data-hover="Contact">Contact</span>
+            </NavLink>
+          </nav>
         </ul>
       </div>
-      
     </div>
   );
 };
