@@ -1,6 +1,8 @@
 import React from "react";
 import useTitle from "../../Hook/useTitle";
 import { BsArrowRight } from "react-icons/bs";
+import SkillButton from "../../Componects/SkillButton";
+import MainButton from "../../Componects/MainButton";
 
 const About = () => {
   useTitle("About");
@@ -25,92 +27,37 @@ const About = () => {
             grow. If you have a good opportunity that matches my skills and
             experience then don't hesitate to contact me.
           </p>
-          <div className="btn-box">
-          <a class="btn-style" href="/contact"><span>Go to Contact</span><em></em></a>
-          </div>
+          <MainButton>Go to Contact</MainButton>
         </div>
         <div>
           <h1 className="text-2xl font-bold text-gray-300">MY SKILLS</h1>
           <div className="divider w-1/12 my-2"></div>
-          <div className="grid grid-cols-3 lg:grid-cols-4 gap-5 mt-5">
-            <div className="text-center p-3 border rounded text-accent">
-              HTML
-            </div>
-            <div className="text-center p-3 border rounded text-accent">
-              CSS
-            </div>
-            <div className="text-center p-3 border rounded text-accent">
-              JavaScript
-            </div>
-            <div className="text-center p-3 border rounded text-accent">
-              Bootstrap
-            </div>
-            <div className="text-center p-3 border rounded text-accent">
-              Tailwind Css
-            </div>
-            <div className="text-center p-3 border rounded text-accent">
-              Daisy UI
-            </div>
-            <div className="text-center p-3 border rounded text-accent">
-              ES6
-            </div>
-            <div className="text-center p-3 border rounded text-accent">
-              npm
-            </div>
-            <div className="text-center p-3 border rounded text-accent">
-              ES6
-            </div>
-            <div className="text-center p-3 border rounded text-accent">
-              Rest API
-            </div>
-            <div className="text-center p-3 border rounded text-accent">
-              React js
-            </div>
-            <div className="text-center p-3 border rounded text-accent">
-              React Hooq
-            </div>
-            <div className="text-center p-3 border rounded text-accent">
-              React Query
-            </div>
-            <div className="text-center p-3 border rounded text-accent">
-              React Router
-            </div>
-            <div className="text-center p-3 border rounded text-accent">
-              React Query
-            </div>
-            <div className="text-center p-3 border rounded text-accent">
-              Node js
-            </div>
-            <div className="text-center p-3 border rounded text-accent">
-              Express js
-            </div>
-            <div className="text-center p-3 border rounded text-accent">
-              Mongodb
-            </div>
-            <div className="text-center p-3 border rounded text-accent">
-              Git
-            </div>
-            <div className="text-center p-3 border rounded text-accent">
-              GitHub
-            </div>
-            <div className="text-center p-3 border rounded text-accent">
-              VS Code
-            </div>
-            <div className="text-center p-3 border rounded text-accent">
-              Firebase
-            </div>
-            <div className="text-center p-3 border rounded text-accent">
-              Netlify
-            </div>
-            <div className="text-center p-3 border rounded text-accent">
-              Vercel
-            </div>
-            <div className="text-center p-3 border rounded text-accent">
-              Figma
-            </div>
-            <div className="text-center p-3 border rounded text-accent">
-              Photoshop
-            </div>
+          <div className="flex flex-wrap gap-3">
+          <SkillButton>React.js</SkillButton>
+          <SkillButton>Node.js</SkillButton>
+          <SkillButton>Express.js</SkillButton>
+          <SkillButton>Mongodb</SkillButton>
+          <SkillButton>Next.js</SkillButton>
+          <SkillButton>Typescript</SkillButton>
+          <SkillButton>Redux</SkillButton>
+          <SkillButton>Rest-API</SkillButton>
+          <SkillButton>React-Hook</SkillButton>
+          <SkillButton>React-Query</SkillButton>
+          <SkillButton>React-Router</SkillButton>
+          <SkillButton>Sass/Scss</SkillButton>
+          <SkillButton>JavaScript</SkillButton>
+          <SkillButton>Bootstrap</SkillButton>
+          <SkillButton>Tailwind Css</SkillButton>
+          <SkillButton>ES6</SkillButton>
+          <SkillButton>npm</SkillButton>
+          <SkillButton>HTML</SkillButton>
+          <SkillButton>CSS</SkillButton>
+          <SkillButton>GitHub</SkillButton>
+          <SkillButton>Firebase</SkillButton>
+          <SkillButton>Netlify</SkillButton>
+          <SkillButton>Vercel</SkillButton>
+          <SkillButton>Figma</SkillButton>
+          <SkillButton>Photoshop</SkillButton>
           </div>
         </div>
       </div>
