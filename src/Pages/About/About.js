@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div className="py-10 bg-black">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 m-8 lg:m-20">
-        <div>
+        <div className="">
           <p className="text-[#357e8a] font-bold mb-1 border w-fit px-2 border-slate-600">who I am</p>
           <h1 className="text-2xl font-bold text-gray-300">ABOUT ME</h1>
           <div className="divider w-1/12 my-2"></div>
@@ -25,9 +25,9 @@ const About = () => {
             grow. If you have a good opportunity that matches my skills and
             experience then don't hesitate to contact me.
           </p>
-          <button className="btn btn-hover btn-secondary shadow-lg w-9/12 mx-auto lg:w-1/3">
-            <a href="/contact" className="flex">CONTACT <span className="ml-3"><BsArrowRight/></span></a>{" "}
-          </button>
+          <div className="btn-box">
+          <a class="btn-style" href="/contact"><span>Go to Contact</span><em></em></a>
+          </div>
         </div>
         <div>
           <h1 className="text-2xl font-bold text-gray-300">MY SKILLS</h1>

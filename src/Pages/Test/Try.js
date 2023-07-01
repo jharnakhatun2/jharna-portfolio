@@ -1,50 +1,31 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 const Try = () => {
-    const one = document.getElementById('one')
-const cover = document.getElementById('cover')
-const filling = document.getElementById('filling')
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.id = 'twitter-wjs';
+    script.src = 'https://platform.twitter.com/widgets.js';
+    script.async = true;
+    document.getElementsByTagName('head')[0].appendChild(script);
 
-window.addEventListener('scroll', () => {
-  let scrollY = window.scrollY
-  let bottomHeight = window.innerHeight
-  
-  if(scrollY / bottomHeight <= 1){
-    one.style.opacity = 1 - ( scrollY / bottomHeight )
-    cover.style.position = 'fixed'
-    filling.style.display = 'none'
-  }
-  else{
-    cover.style.position = null
-    filling.style.display = 'block'
-  }
-})
+    return () => {
+      document.getElementById('twitter-wjs').remove();
+    };
+  }, []);
+
   return (
-    <div>
-        <div id='filling' style={{display: 'none'}}>
-  </div>
-
-  <div id='cover' style={{position:'fixed'}}>
-    <div id='one'>
-      <img src='https://picsum.photos/id/200/1000/1000'/>
-    </div>
-
-    <div id='two'>
-      <img src='https://picsum.photos/id/201/1000/1000'/>
-    </div>
-  </div>  
-
-  <div>
-    <img src='https://picsum.photos/id/206/1000/1000'/>
-  </div>
-
-  <div style={{marginTop:'-10px'}}>
-    <img src='https://picsum.photos/id/204/1000/1000'/>
-  </div>
-
-  <div style={{marginTop:'-10px'}}>
-    <img src='https://picsum.photos/id/208/1000/1000'/>
-  </div>
+    <div className="trapdoor">
+      <div className="top door"></div>
+      <div className="bottom door"></div>
+      <a
+        href="https://twitter.com/twholman"
+        className="twitter-follow-button"
+        data-show-count="false"
+        data-size="large"
+        data-dnt="false"
+      >
+        Follow @twholman
+      </a>
     </div>
   )
 }
