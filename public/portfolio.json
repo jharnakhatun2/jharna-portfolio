@@ -6,11 +6,22 @@
         "img_one" : "https://i.ibb.co/FDKRyJM/1.png",
         "img_two" : "https://i.ibb.co/ZxRrx86/2.png",
         "img_three" : "https://i.ibb.co/RCjBZn6/3.png",
-        "short_des": "Sound's Mart is a full-stack project.In this project, I used React js, Node js , Express js, Mongodb, Google Firebase,Authentication, JWT token system, Stripe payment gateway.This site’s dashboard worked as user verified user access.",
+        "short_des": "MERN Stack project. It is role base permission website",
         "des" : "SOUND'S MART is my 12th Assignment Project. My project topics name is Headphone. To make this project, I used React js, Nodejs, Express js, MongoDB, Google Firebase web applications. SOUND'S MART is Full Stack based website with user role based. This site's dashboard worked for 3 types of user role - admin, seller and buyer. React js application is easy to use for it's reusable UI components and secure access. I like it very much because of it's handling simplicity, also my site work properly with super fast speed. Also anyone can route easily form one page to another. Link routed properly.To make this project I faced some challenges to myself and enjoyed it more. Challenges always attracted to Me!",
         "live" : "https://sounds-mart.web.app/",
         "git_client" : "https://github.com/Jharna203/sounds-mart_client_repo",
         "git_server" : "https://github.com/Jharna203/sounds-mart-server_repo",
+        "technology":{
+            "one": "React.js",
+            "two": "Node.js",
+            "three": "Express.js",
+            "four": "MongoDB",
+            "five": "Tailwind Css",
+            "six": "Firebase",
+            "seven": "JWT",
+            "eight": "Stripe",
+            "nine": "env"
+        },
         "features" :[
             "Made admin user, seller user, buyer user",
             "Made dynamic route and set in navbar",
@@ -39,6 +50,17 @@
         "live" : "https://assignment-10-75df6.web.app/",
         "git_client" : "https://github.com/Jharna203/assignment-10_client",
         "git_server" : "https://github.com/Jharna203/assignment-10-server",
+        "technology":{
+            "one": "React.js",
+            "two": "Node.js",
+            "three": "Express.js",
+            "four": "MongoDB",
+            "five": "Bootstrap",
+            "six": "Firebase",
+            "seven": "JWT",
+            "eight": "Stripe",
+            "nine": "npm"
+        },
         "features" :[
             "Made dynamic route and set in navbar",
             "Made server site and created json data file",
@@ -51,21 +73,30 @@
     },
     {
         "id" : 3,
-        "name" : "BODY BURN CLUB",
+        "name" : "TRAVEL.XONE",
         "image" :"https://i.ibb.co/3YJ2bYz/3.png",
         "img_one" : "https://i.ibb.co/23dw8nc/1.png",
         "img_two" : "https://i.ibb.co/Nx3V1sf/2.png",
         "img_three" : "https://i.ibb.co/h2WhDZ5/3.png",
-        "short_des": "Body Burn Club is a single page application (SPA) based project. Here I Implemented state management system ( react hook ), and explore folder structure. I used ES6, dynamic route, different react features, Local Storage.",
-        "des" : "This is a activities based Single Page Application. I created this site for some specific functions, Such as - if you click 'Add To List' button, then activities time will be added on the side board's 'Exercise time field' and side board have break time. If click that break time, time will show the break time field. At last when you click the activity completed then you will get a toast completed message.",
+        "short_des": "Tour booking Full Stack Team Project which helps people on their trips",
+        "des" : "It is a Tour booking management team project. My role is front-end web developer. I created restaurant booking everything which helps people on their trips",
         "live" : "https://body-burn-club.netlify.app/",
         "git_client" : "https://github.com/Jharna203/body-burn-club_repo",
+        "technology":{
+            "one": "Next.js",
+            "two": "Node.js",
+            "three": "Express.js",
+            "four": "MongoDB",
+            "five": "Tailwind Css",
+            "six": "Firebase",
+            "seven": "JWT",
+            "eight": "Stripe",
+            "nine": "env"
+        },
         "features" :[ 
-            "I set website title, favicon and combine color",
-            "I made fake data with title, image,description, age and activities time",
-            "I use css code and React js for site styling and functionality",
-            "For a responsive card layout I used css code",
-            "I made site logo with Photoshop tool"
+            "I am implemented user friendly Interface and online booking system",
+            "Added tour detailed Informations, Review and Rating system",
+            "I created a secure dashboard for admin and users and added payment gateway service"
     ]
 
     },
@@ -80,6 +111,16 @@
         "des" : "CHOICE TOP PLAYERS is my Document Object Model base project. I made a Side Board in this project where had 2 parts with players and Budget calculation. If you click card Select button, player name will be added in Selected - V fields. You can select only 5 players because of I kept limited this amount. Then you input your expenses in budgets different fields. Finally you will get your total expenses if you click Calculate Total Button.",
         "live" : "https://choice-your-top-players.netlify.app/",
         "git_client" : "https://github.com/Jharna203/best-five-dom_repo",
+        "technology":{
+            "one": "React.js",
+            "two": "Node.js",
+            "three": "Express.js",
+            "four": "MongoDB",
+            "five": "Firebase",
+            "six": "JWT",
+            "seven": "Stripe",
+            "eight": "env"
+        },
         "features" :[
             "Here I used HTML for markup, CSS for style and javascript for manipulation",
             "I made card with image, title, and select button",

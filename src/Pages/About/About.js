@@ -1,15 +1,15 @@
 import React from "react";
 import useTitle from "../../Hook/useTitle";
-import { BsArrowRight } from "react-icons/bs";
 import SkillButton from "../../Componects/SkillButton";
 import MainButton from "../../Componects/MainButton";
+import { Link } from "react-router-dom";
 
 const About = () => {
   useTitle("About");
   return (
-    <div className="py-10 bg-black">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 m-8 lg:m-20">
-        <div className="">
+    <div className="bg-black">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 px-10 md:px-20 lg:px-20 py-20">
+        <div className="pb-12">
           <p className="text-[#357e8a] font-bold mb-1 border w-fit px-2 border-slate-600">who I am</p>
           <h1 className="text-2xl font-bold text-gray-300">ABOUT ME</h1>
           <div className="divider w-1/12 my-2"></div>
@@ -27,7 +27,9 @@ const About = () => {
             grow. If you have a good opportunity that matches my skills and
             experience then don't hesitate to contact me.
           </p>
-          <MainButton>Go to Contact</MainButton>
+          <Link to="/about">
+          <MainButton >KNOW MORE</MainButton>
+          </Link>
         </div>
         <div>
           <h1 className="text-2xl font-bold text-gray-300">MY SKILLS</h1>

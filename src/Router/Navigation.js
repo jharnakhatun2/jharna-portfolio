@@ -3,13 +3,15 @@ import { NavLink } from "react-router-dom";
 
 const Navigation = () => {
   return (
-    <div className="navbar bg-[#223438] shadow z-10 sticky top-0">
+    <div className="navbar bg-[#223438] shadow z-50 sticky top-0">
       <div className="navbar flex justify-between">
+        <a href="/" alt="logo">
         <img
           className="p-0 m-0 max-w-[100%] w-20 hidden lg:block"
           src="https://i.ibb.co/2n3LWZF/JS-2.png"
           alt="jharna-portfolio"
         />
+        </a>
         <div className="dropdown">
           <label tabIndex={0} className="btn bg-black  lg:hidden">
             <svg
@@ -44,9 +46,6 @@ const Navigation = () => {
               <NavLink className="nav-content" to="/blog">
                 <span data-hover="Blogs">Blogs</span>
               </NavLink>
-              <NavLink className="nav-content" to="/contact">
-                <span data-hover="Contact">Contact</span>
-              </NavLink>
             </nav>
           </ul>
         </div>
@@ -70,9 +69,6 @@ const Navigation = () => {
             </NavLink>
             <NavLink className="nav-content" to="/blog">
               <span data-hover="Blogs">Blogs</span>
-            </NavLink>
-            <NavLink className="nav-content" to="/contact">
-              <span data-hover="Contact">Contact</span>
             </NavLink>
           </nav>
         </ul>

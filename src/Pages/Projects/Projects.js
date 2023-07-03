@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import useTitle from "../../Hook/useTitle";
+import ProjectButtonLive from "../../Componects/ProjectButtonLive";
+import ProjectButtonTwo from "../../Componects/ProjectButtonTwo";
 
 const Projects = () => {
   const [singleProject, setSingleProject] = useState([]);
@@ -17,41 +19,78 @@ const Projects = () => {
 
   useTitle("Portfolio");
   return (
-    <div className="projectsBackgroundImage w-full py-20" id="project">
+    <div className="projectsBackgroundImage w-full py-24" id="project">
       <div className="text-center">
         <h1 className="text-4xl font-bold">PROJECTS</h1>
-        <div className="divider w-1/3 mx-auto">
-          <img
-            src="https://i.ibb.co/bJKzvQL/devider-removebg-preview.png"
-            alt="divider"
-          />
-        </div>
-        <p className="w-full lg:w-1/2 px-8 text-accent mx-auto text-lg mb-20">
-          Here you will find some of the personal projects that I created with
-          each project containing its own case study
+        <div className="divider w-[5%] my-2 mx-auto"></div>
+        <p className="w-full lg:w-[40%] px-8 text-accent mx-auto text-lg mb-20">
+          Some of my personal projects that I created with each project
+          containing its own case study
         </p>
       </div>
       <div className=" grid grid-cols-1 lg:grid-cols-2 gap-10 mx-8 lg:mx-20">
         {singleProject.map((data) => {
           console.log(data);
-          const { id, name, image, short_des, live } = data;
+          const { id, name, image, short_des, technology, live } = data;
 
+          const technologyStyle = [
+            "transition text-gray-400 hover:text-gray-200 border border-double border-[#565b5c] hover:border-secondary px-2 py-[2px] rounded"
+          ]
           return (
-            <div key={id} className="card lg:card-side bg-base-100 shadow-xl">
+            <div
+              key={id}
+              className="card md:card-side lg:card-side bg-neutral shadow-xl"
+            >
               <figure>
                 <img src={image} alt="Album" />
               </figure>
               <div className="card-body w-full lg:w-1/2">
-                <h2 className="card-title">{name}</h2>
-                <div className="text-accent">{short_des}</div>
+                <h2 className="card-title text-white">{name}</h2>
+                <p className="text-gray-400 text-sm">
+                  {short_des.slice(0, 53)+"..."}
+                </p>
+                <div className="pb-3">
+                  <h2 className="text-white pb-2">Technology :</h2>
+                  <div className="flex flex-wrap gap-2">
+                    <span className={technologyStyle}>
+                      {technology.one}
+                    </span>
+                    <span className={technologyStyle}>
+                      {technology.two}
+                    </span>
+                    <span className={technologyStyle}>
+                      {technology.three}
+                    </span>
+                    <span className={technologyStyle}>
+                      {technology.four}
+                    </span>
+                    <span className={technologyStyle}>
+                      {technology.five}
+                    </span>
+                    <span className={technologyStyle}>
+                      {technology.six}
+                    </span>
+                    <span className={technologyStyle}>
+                      {technology.seven}
+                    </span>
+                    <span className={technologyStyle}>
+                      {technology.eight}
+                    </span>
+                    <span className={technologyStyle}>
+                      {technology?.nine}
+                    </span>
+                  </div>
+                </div>
                 <div className="card-actions justify-end">
-                  <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 w-full text-center">
-                    <div className="bg-secondary px-5 py-2 shadow-xl rounded">
-                      <Link to={`/project/${id}`}>DETAILS</Link>
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2 w-full text-center">
+                    <div>
+                      <Link to={`/project/${id}`}>
+                        <ProjectButtonTwo>DETAILS</ProjectButtonTwo>
+                      </Link>
                     </div>
-                    <div className="bg-neutral text-secondary px-5 py-2 shadow-xl rounded">
+                    <div>
                       <a href={live} target="_blank" rel="noopener noreferrer">
-                        LIVE SITE
+                        <ProjectButtonLive>LIVE SITE</ProjectButtonLive>
                       </a>
                     </div>
                   </div>

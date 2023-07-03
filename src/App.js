@@ -6,7 +6,7 @@ import Projects from './Pages/Projects/Projects';
 import Main from './Router/Main';
 import About from './Pages/About/About';
 import Home from './Pages/Home/Home';
-import Contact from './Pages/Contact/Contact';
+
 
 function App() {
   const router = createBrowserRouter([
@@ -33,12 +33,7 @@ function App() {
         {
           path: '/blog',
           element:<Blog></Blog>
-        },
-        {
-          path: '/contact',
-          element:<Contact></Contact>
         }
-        
       ]
     }
   ]);
