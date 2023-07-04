@@ -39,7 +39,7 @@ const Projects = () => {
               key={id}
               className="card md:card-side lg:card-side bg-neutral shadow-xl"
             >
-              <figure className="w-1/2 h-[388px]">
+              <figure className=" w-full h-auto md:w-full md:h-[350px] lg:w-1/2 lg:h-[388px]">
                 <img src={image} alt="Album" className="w-full h-auto" />
               </figure>
               <div className="card-body w-full lg:w-1/2">

@@ -8,7 +8,7 @@ const About = () => {
   useTitle("About");
   return (
     <div className="bg-black">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 px-10 md:px-20 lg:px-20 py-20">
+      <div className="container overflow-hidden grid grid-cols-1 lg:grid-cols-2 gap-20 px-0 md:px-10 lg:px-20 py-20 mx-auto">
         <div className="pb-12">
           <p className="text-[#357e8a] font-bold mb-1 border w-fit px-2 border-slate-600">who I am</p>
           <h1 className="text-2xl font-bold text-gray-300">ABOUT ME</h1>
@@ -27,8 +27,10 @@ const About = () => {
             grow. If you have a good opportunity that matches my skills and
             experience then don't hesitate to contact me.
           </p>
-          <Link to="/about">
-          <MainButton >KNOW MORE</MainButton>
+          <Link to="/about" >
+          
+          <MainButton>KNOW MORE</MainButton>
+          
           </Link>
         </div>
         <div>
