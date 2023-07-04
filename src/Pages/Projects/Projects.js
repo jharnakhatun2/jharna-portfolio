@@ -11,7 +11,6 @@ const Projects = () => {
     fetch("portfolio.json")
       .then((res) => res.json())
       .then((data) => {
-        console.log(data);
         setSingleProject(data);
       })
       .catch((error) => console.log(error));
@@ -30,55 +29,36 @@ const Projects = () => {
       </div>
       <div className=" grid grid-cols-1 lg:grid-cols-2 gap-10 mx-8 lg:mx-20">
         {singleProject.map((data) => {
-          console.log(data);
           const { id, name, image, short_des, technology, live } = data;
 
           const technologyStyle = [
-            "transition text-gray-400 hover:text-gray-200 border border-double border-[#565b5c] hover:border-secondary px-2 py-[2px] rounded"
-          ]
+            "transition text-gray-400 hover:text-gray-200 border border-double border-[#565b5c] hover:border-secondary px-2 py-[2px] rounded",
+          ];
           return (
             <div
               key={id}
               className="card md:card-side lg:card-side bg-neutral shadow-xl"
             >
-              <figure>
-                <img src={image} alt="Album" />
+              <figure className="w-1/2 h-[388px]">
+                <img src={image} alt="Album" className="w-full h-auto" />
               </figure>
               <div className="card-body w-full lg:w-1/2">
                 <h2 className="card-title text-white">{name}</h2>
                 <p className="text-gray-400 text-sm">
-                  {short_des.slice(0, 53)+"..."}
+                  {short_des.slice(0, 53) + "..."}
                 </p>
                 <div className="pb-3">
                   <h2 className="text-white pb-2">Technology :</h2>
                   <div className="flex flex-wrap gap-2">
-                    <span className={technologyStyle}>
-                      {technology.one}
-                    </span>
-                    <span className={technologyStyle}>
-                      {technology.two}
-                    </span>
-                    <span className={technologyStyle}>
-                      {technology.three}
-                    </span>
-                    <span className={technologyStyle}>
-                      {technology.four}
-                    </span>
-                    <span className={technologyStyle}>
-                      {technology.five}
-                    </span>
-                    <span className={technologyStyle}>
-                      {technology.six}
-                    </span>
-                    <span className={technologyStyle}>
-                      {technology.seven}
-                    </span>
-                    <span className={technologyStyle}>
-                      {technology.eight}
-                    </span>
-                    <span className={technologyStyle}>
-                      {technology?.nine}
-                    </span>
+                    <span className={technologyStyle}>{technology.one}</span>
+                    <span className={technologyStyle}>{technology.two}</span>
+                    <span className={technologyStyle}>{technology.three}</span>
+                    <span className={technologyStyle}>{technology.four}</span>
+                    <span className={technologyStyle}>{technology.five}</span>
+                    <span className={technologyStyle}>{technology.six}</span>
+                    <span className={technologyStyle}>{technology.seven}</span>
+                    <span className={technologyStyle}>{technology.eight}</span>
+                    <span className={technologyStyle}>{technology?.nine}</span>
                   </div>
                 </div>
                 <div className="card-actions justify-end">

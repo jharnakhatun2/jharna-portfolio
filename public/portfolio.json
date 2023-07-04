@@ -1,9 +1,12 @@
+
+
+
 [
     {
         "id" : 1,
         "name" : "SOUND'S MART",
-        "image" :"https://i.ibb.co/xzcTpNG/1.png",
-        "img_one" : "https://i.ibb.co/FDKRyJM/1.png",
+        "image" :"https://i.ibb.co/9YpL3NC/New-Project-5.png",
+        "img_one" : "https://i.ibb.co/9YpL3NC/New-Project-5.png",
         "img_two" : "https://i.ibb.co/ZxRrx86/2.png",
         "img_three" : "https://i.ibb.co/RCjBZn6/3.png",
         "short_des": "MERN Stack project. It is role base permission website",
@@ -41,15 +44,15 @@
     {
         "id" : 2,
         "name" : "COURSE DEEP",
-        "image" :"https://i.ibb.co/M5Lj3ZY/2.png",
-        "img_one" : "https://i.ibb.co/NSzRpNh/1.png",
+        "image" :"https://i.ibb.co/bLHbYnd/New-Project-7.png",
+        "img_one" : "https://i.ibb.co/bLHbYnd/New-Project-7.png",
         "img_two" : "https://i.ibb.co/kSypzY2/3.png",
         "img_three" : "https://i.ibb.co/XZNgCz1/21.png",
         "short_des": "Course Deep is a Learning Management System based project.I created some json data files, loaded API data and displayed data in dynamic routes. I Integrated firebase Authentication in my client site & created a private route for the checkout page.",
         "des" : "COURSE DEEP is my full stack Project. To make this project, I used only React js application. React js application is easy to use for it's reusable UI components. I like it very much because of it's handling simplicity, also my site work properly with super fast speed.To make this project I faced some brain strooming challenges to myself and enjoyed it joyfully. Challenges always attracted to Me!",
-        "live" : "https://assignment-10-75df6.web.app/",
-        "git_client" : "https://github.com/Jharna203/assignment-10_client",
-        "git_server" : "https://github.com/Jharna203/assignment-10-server",
+        "live" : "https://course-deep.web.app/",
+        "git_client" : "https://github.com/jharnakhatun2/course_deep_client",
+        "git_server" : "https://github.com/jharnakhatun2/course_deep_server",
         "technology":{
             "one": "React.js",
             "two": "Node.js",
@@ -74,14 +77,15 @@
     {
         "id" : 3,
         "name" : "TRAVEL.XONE",
-        "image" :"https://i.ibb.co/3YJ2bYz/3.png",
-        "img_one" : "https://i.ibb.co/23dw8nc/1.png",
+        "image" :"https://i.ibb.co/Jc5WRYy/New-Project-6.png",
+        "img_one" : "https://i.ibb.co/Jc5WRYy/New-Project-6.png",
         "img_two" : "https://i.ibb.co/Nx3V1sf/2.png",
         "img_three" : "https://i.ibb.co/h2WhDZ5/3.png",
         "short_des": "Tour booking Full Stack Team Project which helps people on their trips",
         "des" : "It is a Tour booking management team project. My role is front-end web developer. I created restaurant booking everything which helps people on their trips",
-        "live" : "https://body-burn-club.netlify.app/",
-        "git_client" : "https://github.com/Jharna203/body-burn-club_repo",
+        "live" : "https://travel-xone-2023.vercel.app/",
+        "git_client" : "https://github.com/Johirul-islam-6/travel-xone-client",
+        "git_server" : "https://github.com/RidoyMia/travel-xone-server",
         "technology":{
             "one": "Next.js",
             "two": "Node.js",

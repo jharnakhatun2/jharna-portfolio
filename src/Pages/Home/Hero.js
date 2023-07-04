@@ -12,8 +12,8 @@ const Hero = () => {
       <div className="px-2 container">
         <div className="flex items-center justify-center">
           <h1 className="text-xl md:text-3xl lg:text-5xl mr-2">HEY, I'M</h1>
-          <div class="animation-hero">
-            <div class="header-content">
+          <div className="animation-hero">
+            <div className="header-content">
               <span data-hover="MERN Developer">JHARNA KHATUN</span>
               <div></div>
             </div>
