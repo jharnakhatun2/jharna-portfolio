@@ -2,22 +2,21 @@
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
-    "./node_modules/tw-elements/dist/js/**/*.js"
+    "./node_modules/tw-elements/dist/js/**/*.js",
   ],
   daisyui: {
     themes: [
       {
         jharnatheme: {
-        
-            primary: "#06515c",
-                    
-            secondary: "#30e1fb",
-                    
-            accent: "#576574",
-                    
-            neutral: "#222f3e",
-                    
-            "base-100": "#FFFFFF",
+          primary: "#32e0fb",
+
+          secondary: "#f33bea",
+
+          accent: "#576574",
+
+          neutral: "#222f3e",
+
+          "base-100": "#FFFFFF",
         },
       },
     ],
@@ -26,8 +25,5 @@ module.exports = {
     extend: {},
   },
   darkMode: "class",
-  plugins: [
-    require("daisyui"),
-    require("tw-elements/dist/plugin.cjs"),
-]
-}
+  plugins: [require("daisyui"), require("tw-elements/dist/plugin.cjs")],
+};

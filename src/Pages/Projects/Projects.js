@@ -16,69 +16,83 @@ const Projects = () => {
       .catch((error) => console.log(error));
   }, []);
 
+  const technologyStyle = [
+    "transition text-gray-400 hover:text-gray-200 border border-double border-[#565b5c] hover:border-secondary px-2 py-[2px] rounded",
+  ];
+
   useTitle("Portfolio");
   return (
-    <div className="projectsBackgroundImage w-full py-24" id="project">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold">PROJECTS</h1>
-        <div className="divider w-[5%] my-2 mx-auto"></div>
-        <p className="w-full lg:w-[40%] px-8 text-accent mx-auto text-lg mb-20">
-          Some of my personal projects that I created with each project
-          containing its own case study
-        </p>
-      </div>
-      <div className=" grid grid-cols-1 lg:grid-cols-2 gap-10 mx-8 lg:mx-20">
-        {singleProject.map((data) => {
-          const { id, name, image, short_des, technology, live } = data;
-
-          const technologyStyle = [
-            "transition text-gray-400 hover:text-gray-200 border border-double border-[#565b5c] hover:border-secondary px-2 py-[2px] rounded",
-          ];
-          return (
-            <div
-              key={id}
-              className="card md:card-side lg:card-side bg-neutral shadow-xl"
-            >
-              <figure className=" w-full h-auto md:w-full md:h-[350px] lg:w-1/2 lg:h-[388px]">
-                <img src={image} alt="Album" className="w-full h-auto" />
-              </figure>
-              <div className="card-body w-full lg:w-1/2">
-                <h2 className="card-title text-white">{name}</h2>
-                <p className="text-gray-400 text-sm">
-                  {short_des.slice(0, 53) + "..."}
-                </p>
-                <div className="pb-3">
-                  <h2 className="text-white pb-2">Technology :</h2>
-                  <div className="flex flex-wrap gap-2">
-                    <span className={technologyStyle}>{technology.one}</span>
-                    <span className={technologyStyle}>{technology.two}</span>
-                    <span className={technologyStyle}>{technology.three}</span>
-                    <span className={technologyStyle}>{technology.four}</span>
-                    <span className={technologyStyle}>{technology.five}</span>
-                    <span className={technologyStyle}>{technology.six}</span>
-                    <span className={technologyStyle}>{technology.seven}</span>
-                    <span className={technologyStyle}>{technology.eight}</span>
-                    <span className={technologyStyle}>{technology?.nine}</span>
-                  </div>
-                </div>
-                <div className="card-actions justify-end">
-                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2 w-full text-center">
-                    <div>
-                      <Link to={`/project/${id}`}>
-                        <ProjectButtonTwo>DETAILS</ProjectButtonTwo>
-                      </Link>
+    <div className="bg-gray-200 w-full px-0 md:px-10 lg:px-20 py-24">
+      <div className="container mx-auto">
+        <div className="text-center">
+          <h1 className="text-4xl font-bold">PROJECTS</h1>
+          <div className="divider w-[5%] my-2 mx-auto"></div>
+          <p className="w-full lg:w-[40%] md:px-20 lg:px-8 text-accent mx-auto text-lg mb-10 lg:mb-20">
+            Some of my personal projects that I created with each project
+            containing its own case study
+          </p>
+        </div>
+        <div className=" grid grid-cols-1 lg:grid-cols-2 gap-10 mx-0 lg:mx-20">
+          {singleProject.map((data) => {
+            const { id, name, image, short_des, technology, live } = data;
+            return (
+              <div
+                key={id}
+                className="card md:card-side lg:card-side bg-black shadow-xl"
+              >
+                <figure className=" w-full h-auto md:w-full md:h-[350px] lg:w-1/2 lg:h-[388px]">
+                  <img src={image} alt="Album" className="w-full h-auto" />
+                </figure>
+                <div className="card-body w-full lg:w-1/2">
+                  <h2 className="card-title text-white">{name}</h2>
+                  <p className="text-gray-400 text-sm">
+                    {short_des.slice(0, 53) + "..."}
+                  </p>
+                  <div className="pb-3">
+                    <h2 className="text-white pb-2">Technology :</h2>
+                    <div className="flex flex-wrap gap-2">
+                      <span className={technologyStyle}>{technology.one}</span>
+                      <span className={technologyStyle}>{technology.two}</span>
+                      <span className={technologyStyle}>
+                        {technology.three}
+                      </span>
+                      <span className={technologyStyle}>{technology.four}</span>
+                      <span className={technologyStyle}>{technology.five}</span>
+                      <span className={technologyStyle}>{technology.six}</span>
+                      <span className={technologyStyle}>
+                        {technology.seven}
+                      </span>
+                      <span className={technologyStyle}>
+                        {technology.eight}
+                      </span>
+                      <span className={technologyStyle}>
+                        {technology?.nine}
+                      </span>
                     </div>
-                    <div>
-                      <a href={live} target="_blank" rel="noopener noreferrer">
-                        <ProjectButtonLive>LIVE SITE</ProjectButtonLive>
-                      </a>
+                  </div>
+                  <div className="card-actions justify-end">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2 w-full text-center">
+                      <div>
+                        <Link to={`/project/${id}`}>
+                          <ProjectButtonTwo>DETAILS</ProjectButtonTwo>
+                        </Link>
+                      </div>
+                      <div>
+                        <a
+                          href={live}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <ProjectButtonLive>LIVE SITE</ProjectButtonLive>
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
       </div>
     </div>
   );

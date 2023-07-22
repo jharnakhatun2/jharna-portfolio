@@ -129,7 +129,7 @@ const Blog = () => {
   useTitle("Blogs");
   return (
     <section className="bg-gray-100">
-      <div className="container mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+      <div className="container mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-20">
         <div className="flex gap-5 items-center">
           <img
             src="https://i.ibb.co/BCZGhKx/blog-3596548-640-removebg-preview.png"
@@ -161,14 +161,14 @@ const Blog = () => {
                       {blog.title}
                     </h2>
                     <p className="leading-relaxed text-gray-700">
-                      {blog.description} 
+                      {blog.description}
                     </p>
                     <Link to={`/blog/${blog.id}`}>
-                    <div className="flex items-center gap-4 text-[#f33bea]">
-                   <span className="inline-block">Read More</span>
-                   <BsArrowRight />
-                   </div>
-                   </Link>
+                      <div className="flex items-center gap-4 text-[#f33bea]">
+                        <span className="inline-block">Read More</span>
+                        <BsArrowRight />
+                      </div>
+                    </Link>
                   </blockquote>
                   <div className="mt-4 flex items-center gap-4">
                     <img

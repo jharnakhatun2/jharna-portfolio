@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Roboto+Slab:wght@400&family=Viga&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Roboto+Slab:wght@400&family=Viga&display=swap");
 .App {
   text-align: center;
 }
-p{
-  font-family: 'Nanum Myeongjo', serif;
+p {
+  font-family: "Nanum Myeongjo", serif;
 }
-h1{
-  font-family: 'Viga', sans-serif;
+h1 {
+  font-family: "Viga", sans-serif;
 }
-h3{
-  font-family: 'Roboto Slab', serif;
+h3 {
+  font-family: "Roboto Slab", serif;
 }
 .App-logo {
   height: 40vmin;
@@ -47,27 +47,27 @@ h3{
 }
 
 .backgroundImage {
-  background-image: url('https://i.ibb.co/zNpkxG2/5651981.jpg');
+  background-image: url("https://i.ibb.co/zNpkxG2/5651981.jpg");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 .projectsBackgroundImage {
-  background-image: url('https://i.ibb.co/jhctkyC/gray-abstract-wireframe-technology-background.jpg');
+  background-image: url("https://i.ibb.co/jhctkyC/gray-abstract-wireframe-technology-background.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 .project {
-  background-image: url('https://i.ibb.co/JnQjRZy/v748-toon-103.jpg');
+  background-image: url("https://i.ibb.co/JnQjRZy/v748-toon-103.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
-.menuHover:hover{
+.menuHover:hover {
   background-color: #222f3e;
   color: #30e1fb;
   border-radius: 5px;
@@ -129,7 +129,6 @@ h3{
 .animation-hero {
   text-transform: uppercase;
   font-weight: 400;
-  
 }
 .animation-hero * {
   box-sizing: border-box;
@@ -144,7 +143,7 @@ h3{
 }
 .animation-hero span {
   padding: 0.3em 0;
-  color: #050505;
+  color: #fdfdfd;
   position: relative;
   display: inline-block;
   letter-spacing: 1px;
@@ -180,41 +179,38 @@ h3{
 .animation-hero .current span {
   transform: translateY(100%);
 }
-.btn-hover:hover{
-  background-color: rgb(243, 59, 234) ;
+.btn-hover:hover {
+  background-color: rgb(243, 59, 234);
   border: none;
   color: aliceblue;
-  transition: .6s;
+  transition: 0.6s;
 }
-.divider{
+.divider {
   background-color: #f33bea;
   height: 2px;
-  
 }
- /* Button Style */
- .btn-box{
+/* Button Style */
+.btn-box {
   position: relative;
- }
- .btn-style {
+}
+.btn-style {
   cursor: pointer;
-  background-color: #30e1fb;
+  background-color: #32e0fb;
   width: 300px;
   height: 60px;
   line-height: 60px;
   position: absolute;
-
-
   z-index: 0;
-  box-shadow: 0px 0px 17px 1px rgba(0,0,0,0.34);
 }
 .btn-style span {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.3rem;
   color: #fff;
   display: block;
   padding-left: 35px;
-  text-transform: uppercase;
-  font: bold 18px/66px Arial;
+  text-transform: capitalize;
+  font: bold;
   transform: scaleX(0.6);
-  letter-spacing: 3px;
   transform-origin: center left;
   transition: color 0.3s ease;
   position: relative;
@@ -234,12 +230,12 @@ h3{
 }
 .btn-style:before,
 .btn-style:after {
-  content: '';
+  content: "";
   background: #fff;
   height: 50%;
   width: 0;
   position: absolute;
-  transition: .3s cubic-bezier(.785,.135,.15,.86);
+  transition: 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
 .btn-style:before {
   top: 0;
@@ -280,7 +276,8 @@ h3{
   margin-top: -25px;
   width: 200px;
   height: 50px;
-  box-shadow: inset -7px 0px 12px -8px rgba(0, 0, 0, 0.3), inset 7px 0px 12px -8px rgba(0, 0, 0, 0.3);
+  box-shadow: inset -7px 0px 12px -8px rgba(0, 0, 0, 0.3),
+    inset 7px 0px 12px -8px rgba(0, 0, 0, 0.3);
   background: rgba(0, 0, 0, 0.3);
   -webkit-transition: background 400ms ease-in-out;
   -moz-transition: background 400ms ease-in-out;
@@ -345,21 +342,21 @@ h3{
   height: 50%;
 }
 .door:before {
-  font-family: 'tweet', sans-serif;
+  font-family: "tweet", sans-serif;
   position: absolute;
   margin-left: -20px;
   font-size: 35px;
   display: block;
-  color: #4099FF;
+  color: #4099ff;
   content: "\e000";
   width: 0px;
   height: 20px;
   left: 52%;
 }
 @font-face {
-  font-family: 'tweet';
-  src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/277/tweet.woff') format('woff');
+  font-family: "tweet";
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/277/tweet.woff")
+    format("woff");
   font-weight: normal;
   font-style: normal;
 }
-
