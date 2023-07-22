@@ -32,7 +32,7 @@ const Projects = () => {
             containing its own case study
           </p>
         </div>
-        <div className=" grid grid-cols-1 lg:grid-cols-2 gap-10 mx-0 lg:mx-20">
+        <div className=" grid grid-cols-1 lg:grid-cols-2 gap-10">
           {singleProject.map((data) => {
             const { id, name, image, short_des, technology, live } = data;
             return (
