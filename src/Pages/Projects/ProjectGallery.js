@@ -38,7 +38,7 @@ export default function ProjectGallery() {
 
   return (
     <div className="bg-gray-300 px-8 md:px-20 py-20">
-      <div className="w-8/12 text-center mx-auto">
+      <div className="w-full md:w-8/12 text-center mx-auto">
         <h1 className="text-2xl font-bold text-black">MY PROJECTS</h1>
 
         <div className="flex flex-wrap gap-3 mt-8 justify-center">
