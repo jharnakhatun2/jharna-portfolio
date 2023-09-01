@@ -94,7 +94,7 @@ const Projects = () => {
           })}
         </div>
         <div className="w-full md:w-3/12 mx-auto pt-16">
-          <Link to="project">
+          <Link to="/project-gallery">
             <Button variant="primary">VIEW MORE &rarr;</Button>
           </Link>
         </div>

@@ -1,7 +1,6 @@
 import React from "react";
 import useTitle from "../../Hook/useTitle";
 import SkillButton from "../../Componects/SkillButton";
-import MainButton from "../../Componects/MainButton";
 import { Link } from "react-router-dom";
 import { Button } from "../../Componects/Button";
 

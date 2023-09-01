@@ -1,137 +1,134 @@
-
-
-
 [
-    {
-        "id" : 1,
-        "name" : "SOUND'S MART",
-        "image" :"https://i.ibb.co/9YpL3NC/New-Project-5.png",
-        "img_one" : "https://i.ibb.co/9YpL3NC/New-Project-5.png",
-        "img_two" : "https://i.ibb.co/ZxRrx86/2.png",
-        "img_three" : "https://i.ibb.co/RCjBZn6/3.png",
-        "short_des": "MERN Stack project. It is role base permission website",
-        "des" : "SOUND'S MART is my 12th Assignment Project. My project topics name is Headphone. To make this project, I used React js, Nodejs, Express js, MongoDB, Google Firebase web applications. SOUND'S MART is Full Stack based website with user role based. This site's dashboard worked for 3 types of user role - admin, seller and buyer. React js application is easy to use for it's reusable UI components and secure access. I like it very much because of it's handling simplicity, also my site work properly with super fast speed. Also anyone can route easily form one page to another. Link routed properly.To make this project I faced some challenges to myself and enjoyed it more. Challenges always attracted to Me!",
-        "live" : "https://sounds-mart.web.app/",
-        "git_client" : "https://github.com/Jharna203/sounds-mart_client_repo",
-        "git_server" : "https://github.com/Jharna203/sounds-mart-server_repo",
-        "technology":{
-            "one": "React.js",
-            "two": "Node.js",
-            "three": "Express.js",
-            "four": "MongoDB",
-            "five": "Tailwind Css",
-            "six": "Firebase",
-            "seven": "JWT",
-            "eight": "Stripe",
-            "nine": "env"
-        },
-        "features" :[
-            "Made admin user, seller user, buyer user",
-            "Made dynamic route and set in navbar",
-            "Made server site and created json data file",
-            "Data inserted in MongoDB and data retrive to client site",
-            "Loaded API and display data in dynamic routes",
-            "Created context API",
-            "Integrated firebase Auth in my client site",
-            "Created private route for my review, Add Services pages and logout option",
-            "Set jwt token system",
-            "Protected API and Secret key with Environment variable",
-            "Using React daisy UI,React icon, React Router Dom",
-            "UI responsive for any device and more..."
-        ]
-
+  {
+    "id": 1,
+    "name": "SOUND'S MART",
+    "image": "https://i.ibb.co/9YpL3NC/New-Project-5.png",
+    "img_one": "https://i.ibb.co/9YpL3NC/New-Project-5.png",
+    "img_two": "https://i.ibb.co/ZxRrx86/2.png",
+    "img_three": "https://i.ibb.co/RCjBZn6/3.png",
+    "category": "mern",
+    "short_des": "MERN Stack project. It is role base permission website",
+    "des": "SOUND'S MART is my 12th Assignment Project. My project topics name is Headphone. To make this project, I used React js, Nodejs, Express js, MongoDB, Google Firebase web applications. SOUND'S MART is Full Stack based website with user role based. This site's dashboard worked for 3 types of user role - admin, seller and buyer. React js application is easy to use for it's reusable UI components and secure access. I like it very much because of it's handling simplicity, also my site work properly with super fast speed. Also anyone can route easily form one page to another. Link routed properly.To make this project I faced some challenges to myself and enjoyed it more. Challenges always attracted to Me!",
+    "live": "https://sounds-mart.web.app/",
+    "git_client": "https://github.com/Jharna203/sounds-mart_client_repo",
+    "git_server": "https://github.com/Jharna203/sounds-mart-server_repo",
+    "technology": {
+      "one": "React.js",
+      "two": "Node.js",
+      "three": "Express.js",
+      "four": "MongoDB",
+      "five": "Tailwind Css",
+      "six": "Firebase",
+      "seven": "JWT",
+      "eight": "Stripe",
+      "nine": "env"
     },
-    {
-        "id" : 2,
-        "name" : "COURSE DEEP",
-        "image" :"https://i.ibb.co/bLHbYnd/New-Project-7.png",
-        "img_one" : "https://i.ibb.co/bLHbYnd/New-Project-7.png",
-        "img_two" : "https://i.ibb.co/kSypzY2/3.png",
-        "img_three" : "https://i.ibb.co/XZNgCz1/21.png",
-        "short_des": "Course Deep is a Learning Management System based project.I created some json data files, loaded API data and displayed data in dynamic routes. I Integrated firebase Authentication in my client site & created a private route for the checkout page.",
-        "des" : "COURSE DEEP is my full stack Project. To make this project, I used only React js application. React js application is easy to use for it's reusable UI components. I like it very much because of it's handling simplicity, also my site work properly with super fast speed.To make this project I faced some brain strooming challenges to myself and enjoyed it joyfully. Challenges always attracted to Me!",
-        "live" : "https://course-deep.web.app/",
-        "git_client" : "https://github.com/jharnakhatun2/course_deep_client",
-        "git_server" : "https://github.com/jharnakhatun2/course_deep_server",
-        "technology":{
-            "one": "React.js",
-            "two": "Node.js",
-            "three": "Express.js",
-            "four": "MongoDB",
-            "five": "Bootstrap",
-            "six": "Firebase",
-            "seven": "JWT",
-            "eight": "Stripe",
-            "nine": "npm"
-        },
-        "features" :[
-            "Made dynamic route and set in navbar",
-            "Made server site and created json data file",
-            "Loaded API and display data in dynamic routes",
-            "Integrated firebase Auth in my client site",
-            "Created private route for checkout page",
-            "Added React Bootstrap, React icon, React Toastify, UI responsive for any device and more..."           
-        ]
-
-    },
-    {
-        "id" : 3,
-        "name" : "TRAVEL.XONE",
-        "image" :"https://i.ibb.co/Jc5WRYy/New-Project-6.png",
-        "img_one" : "https://i.ibb.co/Jc5WRYy/New-Project-6.png",
-        "img_two" : "https://i.ibb.co/Nx3V1sf/2.png",
-        "img_three" : "https://i.ibb.co/h2WhDZ5/3.png",
-        "short_des": "Tour booking Full Stack Team Project which helps people on their trips",
-        "des" : "It is a Tour booking management team project. My role is front-end web developer. I created restaurant booking everything which helps people on their trips",
-        "live" : "https://travel-xone-2023.vercel.app/",
-        "git_client" : "https://github.com/Johirul-islam-6/travel-xone-client",
-        "git_server" : "https://github.com/RidoyMia/travel-xone-server",
-        "technology":{
-            "one": "Next.js",
-            "two": "Node.js",
-            "three": "Express.js",
-            "four": "MongoDB",
-            "five": "Tailwind Css",
-            "six": "Firebase",
-            "seven": "JWT",
-            "eight": "Stripe",
-            "nine": "env"
-        },
-        "features" :[ 
-            "I am implemented user friendly Interface and online booking system",
-            "Added tour detailed Informations, Review and Rating system",
-            "I created a secure dashboard for admin and users and added payment gateway service"
+    "features": [
+      "Made admin user, seller user, buyer user",
+      "Made dynamic route and set in navbar",
+      "Made server site and created json data file",
+      "Data inserted in MongoDB and data retrive to client site",
+      "Loaded API and display data in dynamic routes",
+      "Created context API",
+      "Integrated firebase Auth in my client site",
+      "Created private route for my review, Add Services pages and logout option",
+      "Set jwt token system",
+      "Protected API and Secret key with Environment variable",
+      "Using React daisy UI,React icon, React Router Dom",
+      "UI responsive for any device and more..."
     ]
-
+  },
+  {
+    "id": 2,
+    "name": "COURSE DEEP",
+    "image": "https://i.ibb.co/bLHbYnd/New-Project-7.png",
+    "img_one": "https://i.ibb.co/bLHbYnd/New-Project-7.png",
+    "img_two": "https://i.ibb.co/kSypzY2/3.png",
+    "img_three": "https://i.ibb.co/XZNgCz1/21.png",
+    "category": "react",
+    "short_des": "Course Deep is a Learning Management System based project.I created some json data files, loaded API data and displayed data in dynamic routes. I Integrated firebase Authentication in my client site & created a private route for the checkout page.",
+    "des": "COURSE DEEP is my full stack Project. To make this project, I used only React js application. React js application is easy to use for it's reusable UI components. I like it very much because of it's handling simplicity, also my site work properly with super fast speed.To make this project I faced some brain strooming challenges to myself and enjoyed it joyfully. Challenges always attracted to Me!",
+    "live": "https://course-deep.web.app/",
+    "git_client": "https://github.com/jharnakhatun2/course_deep_client",
+    "git_server": "https://github.com/jharnakhatun2/course_deep_server",
+    "technology": {
+      "one": "React.js",
+      "two": "Node.js",
+      "three": "Express.js",
+      "four": "MongoDB",
+      "five": "Bootstrap",
+      "six": "Firebase",
+      "seven": "JWT",
+      "eight": "Stripe",
+      "nine": "npm"
     },
-    {
-        "id" : 4,
-        "name" : "CHOICE TOP PLAYERS",
-        "image" :"https://i.ibb.co/z7wpV79/4.pngf",
-        "img_one" : "https://i.ibb.co/0n3K0tX/1.png",
-        "img_two" : "https://i.ibb.co/DbLcwgz/2.png",
-        "img_three" : "https://i.ibb.co/q7LM0PS/3.png",
-        "short_des": "Select Top Players is Document Object Model based Website. Here I implemented querySelector, querySelectorAll, getElementById, getElementsByClassName, addEventListener,Event bubble.",
-        "des" : "CHOICE TOP PLAYERS is my Document Object Model base project. I made a Side Board in this project where had 2 parts with players and Budget calculation. If you click card Select button, player name will be added in Selected - V fields. You can select only 5 players because of I kept limited this amount. Then you input your expenses in budgets different fields. Finally you will get your total expenses if you click Calculate Total Button.",
-        "live" : "https://choice-your-top-players.netlify.app/",
-        "git_client" : "https://github.com/Jharna203/best-five-dom_repo",
-        "technology":{
-            "one": "React.js",
-            "two": "Node.js",
-            "three": "Express.js",
-            "four": "MongoDB",
-            "five": "Firebase",
-            "six": "JWT",
-            "seven": "Stripe",
-            "eight": "env"
-        },
-        "features" :[
-            "Here I used HTML for markup, CSS for style and javascript for manipulation",
-            "I made card with image, title, and select button",
-            "I integrated HTML with javascript with getElementById. Also sometimes used querySelector and querySelectorAll",
-            "Created button with event handler",
-            "I use onClick javaScript event for user interacts with Choice Top Players Site"
-        ]
-
-    }
+    "features": [
+      "Made dynamic route and set in navbar",
+      "Made server site and created json data file",
+      "Loaded API and display data in dynamic routes",
+      "Integrated firebase Auth in my client site",
+      "Created private route for checkout page",
+      "Added React Bootstrap, React icon, React Toastify, UI responsive for any device and more..."
+    ]
+  },
+  {
+    "id": 3,
+    "name": "TRAVEL.XONE",
+    "image": "https://i.ibb.co/Jc5WRYy/New-Project-6.png",
+    "img_one": "https://i.ibb.co/Jc5WRYy/New-Project-6.png",
+    "img_two": "https://i.ibb.co/Nx3V1sf/2.png",
+    "img_three": "https://i.ibb.co/h2WhDZ5/3.png",
+    "category": "next",
+    "short_des": "Tour booking Full Stack Team Project which helps people on their trips",
+    "des": "It is a Tour booking management team project. My role is front-end web developer. I created restaurant booking everything which helps people on their trips",
+    "live": "https://travel-xone-2023.vercel.app/",
+    "git_client": "https://github.com/Johirul-islam-6/travel-xone-client",
+    "git_server": "https://github.com/RidoyMia/travel-xone-server",
+    "technology": {
+      "one": "Next.js",
+      "two": "Node.js",
+      "three": "Express.js",
+      "four": "MongoDB",
+      "five": "Tailwind Css",
+      "six": "Firebase",
+      "seven": "JWT",
+      "eight": "Stripe",
+      "nine": "env"
+    },
+    "features": [
+      "I am implemented user friendly Interface and online booking system",
+      "Added tour detailed Informations, Review and Rating system",
+      "I created a secure dashboard for admin and users and added payment gateway service"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "CHOICE TOP PLAYERS",
+    "image": "https://i.ibb.co/z7wpV79/4.pngf",
+    "img_one": "https://i.ibb.co/0n3K0tX/1.png",
+    "img_two": "https://i.ibb.co/DbLcwgz/2.png",
+    "img_three": "https://i.ibb.co/q7LM0PS/3.png",
+    "category": "javascript",
+    "short_des": "Select Top Players is Document Object Model based Website. Here I implemented querySelector, querySelectorAll, getElementById, getElementsByClassName, addEventListener,Event bubble.",
+    "des": "CHOICE TOP PLAYERS is my Document Object Model base project. I made a Side Board in this project where had 2 parts with players and Budget calculation. If you click card Select button, player name will be added in Selected - V fields. You can select only 5 players because of I kept limited this amount. Then you input your expenses in budgets different fields. Finally you will get your total expenses if you click Calculate Total Button.",
+    "live": "https://choice-your-top-players.netlify.app/",
+    "git_client": "https://github.com/Jharna203/best-five-dom_repo",
+    "technology": {
+      "one": "React.js",
+      "two": "Node.js",
+      "three": "Express.js",
+      "four": "MongoDB",
+      "five": "Firebase",
+      "six": "JWT",
+      "seven": "Stripe",
+      "eight": "env"
+    },
+    "features": [
+      "Here I used HTML for markup, CSS for style and javascript for manipulation",
+      "I made card with image, title, and select button",
+      "I integrated HTML with javascript with getElementById. Also sometimes used querySelector and querySelectorAll",
+      "Created button with event handler",
+      "I use onClick javaScript event for user interacts with Choice Top Players Site"
+    ]
+  }
 ]

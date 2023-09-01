@@ -21,6 +21,7 @@
     "react-router-dom": "^6.4.5",
     "react-router-hash-link": "^2.4.3",
     "react-scripts": "5.0.1",
+    "react-scroll-to-top": "^3.0.0",
     "styled-components": "^6.0.7",
     "swiper": "^10.0.2",
     "tw-elements": "^1.0.0-beta2",

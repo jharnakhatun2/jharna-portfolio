@@ -63,27 +63,6 @@ const Hero = () => {
               <BsDownload />
               RESUME
             </Button>
-            {/* <a
-              href="https://www.linkedin.com/in/jharna-khatun2/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="relative inline-flex items-center justify-center px-10 py-4 overflow-hidden font-mono font-medium tracking-tighter text-white bg-gray-800 rounded-lg group w-3/4"
-            >
-              <span className="absolute w-0 h-0 transition-all duration-500 ease-out bg-[#f33bea] rounded-full group-hover:w-56 group-hover:h-56"></span>
-              <span className="absolute inset-0 w-full h-full -mt-1 rounded-lg opacity-30 bg-gradient-to-b from-transparent via-transparent to-gray-700"></span>
-              <span className="relative flex items-center gap-3 text-primary">
-                <p className="uppercase text-sm "></p>
-              </span>
-            </a>
-            <a
-              
-              rel="noopener noreferrer"
-            >
-              <div className="btn btn-hover btn-secondary shadow-lg w-3/4">
-                <BsDownload />
-                <p className="ml-3"></p>
-              </div>
-            </a> */}
           </div>
         </div>
       </div>

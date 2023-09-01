@@ -91,9 +91,9 @@ const Navigation = () => {
               </NavLink>
               <NavLink
                 className={`nav-content ${
-                  location.pathname === "/project" ? "current" : ""
+                  location.pathname === "/project-gallery" ? "current" : ""
                 }`}
-                to="/project"
+                to="/project-gallery"
               >
                 <span data-hover="Projects">Projects</span>
               </NavLink>
@@ -142,9 +142,9 @@ const NavContentMob = ({ setIsMenuOpen }) => {
           </NavLink>
           <NavLink
             className={`nav-content ${
-              location.pathname === "/project" ? "current" : ""
+              location.pathname === "/project-gallery" ? "current" : ""
             }`}
-            to="/project"
+            to="/project-gallery"
           >
             <span data-hover="Projects">Projects</span>
           </NavLink>
