@@ -53,13 +53,15 @@ h3 {
   background-size: cover;
   background-attachment: fixed;
 }
+/* Project styles */
 .projectsBackgroundImage {
-  background-image: url("https://i.ibb.co/jhctkyC/gray-abstract-wireframe-technology-background.jpg");
+  background-image: url("https://i.ibb.co/jGh5zvg/240-F-278772224-EM6f-TRWXqe-XEYrct-Dx-Wqh-Lzj31ln-Ue-QY.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
+
 .project {
   background-image: url("https://i.ibb.co/JnQjRZy/v748-toon-103.jpg");
   background-position: center center;
@@ -71,6 +73,15 @@ h3 {
   background-color: #222f3e;
   color: #30e1fb;
   border-radius: 5px;
+}
+
+/* social media icon style */
+.social-icon {
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;
+}
+.social-icon:hover {
+  transform: rotateY(180deg);
 }
 /* nav menu style */
 .menu-4 {
@@ -89,7 +100,7 @@ h3 {
 }
 .menu-4 span {
   padding: 0.3em 0;
-  color: #979797;
+  color: #a8a29c;
   position: relative;
   display: inline-block;
   letter-spacing: 1px;
@@ -97,6 +108,7 @@ h3 {
   text-decoration: none;
   font-size: 14px;
 }
+
 .menu-4 span:before,
 .menu-4 span:after {
   position: absolute;
@@ -149,7 +161,7 @@ h3 {
   letter-spacing: 1px;
   margin: 0;
   text-decoration: none;
-  font-size: 3vw;
+  font-size: 3.8vw;
   font-weight: 700;
 }
 .animation-hero span:before,
@@ -165,6 +177,7 @@ h3 {
   width: 100%;
   content: "";
   background-color: #f33bea;
+  margin-bottom: 16px;
 }
 .animation-hero span:after {
   padding: 0.3em 0;
@@ -359,4 +372,11 @@ h3 {
     format("woff");
   font-weight: normal;
   font-style: normal;
+}
+
+@media only screen and (max-width: 768px) {
+  .animation-hero span:before {
+    width: 100%;
+    margin-bottom: 0;
+  }
 }

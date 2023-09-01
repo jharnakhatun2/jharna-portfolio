@@ -1,12 +1,11 @@
 import React from "react";
 import Lottie from "lottie-react";
-import contact2 from "../../assets/lottiAnimation/70702-contact-us.json";
+import contact2 from "../../assets/lottiAnimation/animation_lm0aibtq.json";
 import { BsGithub, BsLinkedin, BsMedium, BsTwitter } from "react-icons/bs";
 import useTitle from "../../Hook/useTitle";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import ProjectButtonTwo from "../../Componects/ProjectButtonTwo";
-import MainButton from "../../Componects/MainButton";
+import { Button } from "../../Componects/Button";
 export default function ContactMe() {
   const form = useRef();
 
@@ -24,6 +23,10 @@ export default function ContactMe() {
         (result) => {
           console.log(result.text);
           console.log("message sent");
+          // Reset form fields
+          if (form.current) {
+            form.current.reset();
+          }
         },
         (error) => {
           console.log(error.text);
@@ -35,7 +38,7 @@ export default function ContactMe() {
 
   return (
     <div className="bg-[url('https://i.ibb.co/6v09WSC/v1016-a-02.jpg')] bg-no-repeat bg-cover bg-center">
-      <div className="container mx-auto px-0 md:px-10 lg:px-20 py-24">
+      <div className=" mx-auto px-8 md:px-20 py-24">
         <div className="lg:flex  lg:-mx-10">
           <div className="lg:w-8/12 lg:mx-10">
             <h1 className="text-2xl font-semibold text-gray-800 capitalize dark:text-white lg:text-3xl">
@@ -45,7 +48,7 @@ export default function ContactMe() {
             <p className="mt-4 text-gray-500 dark:text-gray-400">
               Ask me everything and I would love to hear from you
             </p>
-            <form ref={form} onSubmit={sendEmail} className=" mt-10 mb-20">
+            <form ref={form} onSubmit={sendEmail} className=" mt-10 ">
               <div className="-mx-2 md:items-center md:flex">
                 <div className="flex-1 px-2">
                   <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
@@ -81,14 +84,9 @@ export default function ContactMe() {
                   name="message"
                 />
               </div>
-
-              <MainButton>
-                <input
-                  type="submit"
-                  value="Submit now"
-                  className="cursor-pointer capitalize"
-                />
-              </MainButton>
+              <div className="w-full md:w-4/12">
+                <Button variant="primary">SUBMIT NOW</Button>
+              </div>
             </form>
           </div>
           <div className="mt-8 lg:flex lg:mt-0 lg:flex-col lg:items-center lg:w-4/12 lg:mx-10 justify-center gap-20">

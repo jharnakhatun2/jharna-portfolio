@@ -11,7 +11,6 @@ const Project = () => {
     fetch("/portfolio.json")
       .then((res) => res.json())
       .then((data) => {
-        console.log(data);
         const currentProject = data.find((item) => item.id === parseInt(id));
         setPortfolio(currentProject);
       });

@@ -1,11 +1,16 @@
 import React from "react";
 import Slider from "./Slider";
 import { Link } from "react-router-dom";
+import { Button } from "../../Componects/Button";
 
 export default function Reviews() {
   return (
-    <div className="bg-gray-300 py-24">
-      <div className="container mx-auto">
+    <div className="bg-gradient-to-r from-violet-200 to-slate-300 px-8 md:px-0 py-24">
+      <div className="text-center mb-10 lg:mb-16">
+        <h1 className="text-4xl font-bold">OUR TESTIMONIALS</h1>
+        <div className="divider w-[5%] my-2 mx-auto"></div>
+      </div>
+      <div className="">
         <div className="block md:flex lg:flex items-center justify-center gap-24 ">
           <div className="w-full md:w-1/5 lg:w-1/5 ">
             <div className="w-full block lg:float-right ">
@@ -14,19 +19,16 @@ export default function Reviews() {
                 alt=""
                 className="h-auto border-2"
               />
-              <div className="text-center">
-                <h2 className="font-bold text-xl mt-2">
+              <div>
+                <h2 className="font-bold text-xl mt-2 text-secondary">
                   CLIENTS LOVE WHAT I DO
                 </h2>
-                <p className="py-3">
+                <p className="py-3 text-gray-800">
                   Feedback are invaluable sources of fuel the growth and
                   improvement of any creative developer
                 </p>
-                <Link
-                  to="/about"
-                  className="border border-white text-secondary transition-all hover:font-bold hover:border-secondary px-5 py-1 text-sm"
-                >
-                  READ MORE
+                <Link to="/about" className="">
+                  <Button variant="primary">READ MORE</Button>
                 </Link>
               </div>
             </div>
