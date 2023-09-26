@@ -6,7 +6,7 @@
     "img_one": "https://i.ibb.co/9YpL3NC/New-Project-5.png",
     "img_two": "https://i.ibb.co/ZxRrx86/2.png",
     "img_three": "https://i.ibb.co/RCjBZn6/3.png",
-    "category": "mern",
+    "category": ["mern", "react", "tailwind", "firebase"],
     "short_des": "MERN Stack project. It is role base permission website",
     "des": "SOUND'S MART is my 12th Assignment Project. My project topics name is Headphone. To make this project, I used React js, Nodejs, Express js, MongoDB, Google Firebase web applications. SOUND'S MART is Full Stack based website with user role based. This site's dashboard worked for 3 types of user role - admin, seller and buyer. React js application is easy to use for it's reusable UI components and secure access. I like it very much because of it's handling simplicity, also my site work properly with super fast speed. Also anyone can route easily form one page to another. Link routed properly.To make this project I faced some challenges to myself and enjoyed it more. Challenges always attracted to Me!",
     "live": "https://sounds-mart.web.app/",
@@ -45,7 +45,7 @@
     "img_one": "https://i.ibb.co/bLHbYnd/New-Project-7.png",
     "img_two": "https://i.ibb.co/kSypzY2/3.png",
     "img_three": "https://i.ibb.co/XZNgCz1/21.png",
-    "category": "react",
+    "category": ["react", "bootstrap", "firebase", "mern"],
     "short_des": "Course Deep is a Learning Management System based project.I created some json data files, loaded API data and displayed data in dynamic routes. I Integrated firebase Authentication in my client site & created a private route for the checkout page.",
     "des": "COURSE DEEP is my full stack Project. To make this project, I used only React js application. React js application is easy to use for it's reusable UI components. I like it very much because of it's handling simplicity, also my site work properly with super fast speed.To make this project I faced some brain strooming challenges to myself and enjoyed it joyfully. Challenges always attracted to Me!",
     "live": "https://course-deep.web.app/",
@@ -78,7 +78,7 @@
     "img_one": "https://i.ibb.co/Jc5WRYy/New-Project-6.png",
     "img_two": "https://i.ibb.co/Nx3V1sf/2.png",
     "img_three": "https://i.ibb.co/h2WhDZ5/3.png",
-    "category": "next",
+    "category": ["next", "tailwind", "mern"],
     "short_des": "Tour booking Full Stack Team Project which helps people on their trips",
     "des": "It is a Tour booking management team project. My role is front-end web developer. I created restaurant booking everything which helps people on their trips",
     "live": "https://travel-xone-2023.vercel.app/",
@@ -104,24 +104,19 @@
   {
     "id": 4,
     "name": "CHOICE TOP PLAYERS",
-    "image": "https://i.ibb.co/z7wpV79/4.pngf",
+    "image": "https://i.ibb.co/PhFgS46/java-Script-project.png",
     "img_one": "https://i.ibb.co/0n3K0tX/1.png",
     "img_two": "https://i.ibb.co/DbLcwgz/2.png",
     "img_three": "https://i.ibb.co/q7LM0PS/3.png",
-    "category": "javascript",
+    "category": ["html-css", "javascript"],
     "short_des": "Select Top Players is Document Object Model based Website. Here I implemented querySelector, querySelectorAll, getElementById, getElementsByClassName, addEventListener,Event bubble.",
     "des": "CHOICE TOP PLAYERS is my Document Object Model base project. I made a Side Board in this project where had 2 parts with players and Budget calculation. If you click card Select button, player name will be added in Selected - V fields. You can select only 5 players because of I kept limited this amount. Then you input your expenses in budgets different fields. Finally you will get your total expenses if you click Calculate Total Button.",
     "live": "https://choice-your-top-players.netlify.app/",
     "git_client": "https://github.com/Jharna203/best-five-dom_repo",
     "technology": {
-      "one": "React.js",
-      "two": "Node.js",
-      "three": "Express.js",
-      "four": "MongoDB",
-      "five": "Firebase",
-      "six": "JWT",
-      "seven": "Stripe",
-      "eight": "env"
+      "one": "html5",
+      "two" : "CSS",
+      "three": "javaScript"
     },
     "features": [
       "Here I used HTML for markup, CSS for style and javascript for manipulation",
@@ -134,11 +129,11 @@
   {
     "id": 5,
     "name": "PORTABLE CHARGER",
-    "image": "https://i.ibb.co/NVqfLhm/html-css-landing-page.png",
+    "image": "https://i.ibb.co/RHqCKjq/responsive-landing-page.png",
     "img_one": "https://i.ibb.co/NVqfLhm/html-css-landing-page.png",
-    "img_two": "https://i.ibb.co/NVqfLhm/html-css-landing-page.png",
-    "img_three": "https://i.ibb.co/NVqfLhm/html-css-landing-page.png",
-    "category": "html-css",
+    "img_two": "https://i.ibb.co/mBBxVXZ/3html.png",
+    "img_three": "https://i.ibb.co/qxGk1LT/htmllanding.png",
+    "category": ["html-css"],
     "short_des": "The Portable Charger Landing Page is a professionally designed and responsive web page that effectively markets portable charger products to a wide range of users. Its modern design, user-friendly interface, and strategic features make it a valuable tool for driving brand awareness and customer engagement in the competitive market of portable charging solutions. Whether accessed on a desktop computer, tablet, or mobile phone, this landing page ensures a seamless and visually pleasing experience for all users.",
     "des":"The Portable Charger Landing Page is a responsive HTML and CSS web page designed to showcase and promote portable charger products. This sleek and user-friendly web page provides an engaging and informative experience for users across various devices, ensuring a seamless browsing experience whether they are using a desktop computer, tablet, or mobile phone. Responsive Design: The landing page has been meticulously crafted to adapt to different screen sizes and resolutions, guaranteeing an optimal viewing experience for users on desktops, laptops, tablets, and smartphones. Modern and Attractive Layout: The design of the landing page is not only functional but also visually appealing. It incorporates modern design elements, including a clean and intuitive navigation menu, eye-catching images, and a balanced color scheme that complements the product's aesthetics. Product Showcase: The central focus of the landing page is to showcase the portable charger products. High-quality images and detailed product descriptions are provided, allowing users to explore the features, specifications, and benefits of the chargers. Call to Action (CTA): To encourage user interaction, strategically placed CTAs prompt visitors to take action, such as making a purchase, signing up for a newsletter, or contacting customer support. Informational Sections: Beyond the product showcase, the landing page includes informative sections that highlight the advantages of portable chargers, explain how they work, and offer tips on selecting the right charger for specific needs. Social Media Integration: Links to the company's social media profiles enable users to stay connected and updated with the latest news and promotions.Newsletter Signup: A newsletter signup form can be included to collect leads and expand the customer base. Footer: The footer of the page typically contains important links, such as privacy policies, terms of service, and copyright information.",
     "live": "https://portable-charger.vercel.app/",
@@ -157,3 +152,5 @@
     ]
   }
 ]
+
+

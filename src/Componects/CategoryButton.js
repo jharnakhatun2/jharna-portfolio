@@ -6,7 +6,7 @@ export default function CategoryButton({ children, onClick, active }) {
       <a
         href="#_"
         onClick={onClick}
-        className={`relative inline-flex items-center justify-center px-6 py-3 overflow-hidden font-bold text-white hover:text-white rounded-md shadow-2xl group ${
+        className={`relative inline-flex items-center justify-center px-6 py-3 overflow-hidden font-bold text-white hover:text-white rounded-md shadow-2xl group uppercase ${
           active
             ? "bg-gradient-to-br from-pink-600 via-purple-700 to-[#30e1fb]"
             : ""
