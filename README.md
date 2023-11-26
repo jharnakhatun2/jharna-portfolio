@@ -4,7 +4,7 @@ I’m an enthusiastic and competent  web developer. Also I am passionate about w
   
 
 ## 🔗 Live Site Link: 
-Preview Live : https://jharna-khatun-portfolio.netlify.app/
+Preview Live : https://jharna-portfolio.vercel.app/
 
 ## 🔗 Resume Link: 
 Download : https://drive.google.com/file/d/1G4awyCsWOnt3BYBccuP3v-D7m0iTJwYp/view
