@@ -1,8 +1,8 @@
+import { motion } from "framer-motion";
 import React from "react";
 import { BsDownload, BsLinkedin } from "react-icons/bs";
-import useTitle from "../../Hook/useTitle";
-import { motion } from "framer-motion";
 import { Button } from "../../Componects/Button";
+import useTitle from "../../Hook/useTitle";
 
 const Hero = () => {
   useTitle("Home");
@@ -56,7 +56,7 @@ const Hero = () => {
             </Button>
             <Button
               as="a"
-              href="https://drive.google.com/file/d/1U_wTKECpMoJuNxpASoV7F6xY8tnN8fMz/view?usp=sharing"
+              href="https://drive.google.com/file/d/1XZdE78zwakW8di6uez9NtbR6DuVCOiyH/view?usp=drive_link"
               target="_blank"
               className="mt-3 md:mt-0"
             >
